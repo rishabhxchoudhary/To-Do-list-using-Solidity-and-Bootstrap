@@ -1,50 +1,5 @@
-var abi = [
-	{
-		"inputs": [
-			{
-				"internalType": "string",
-				"name": "task",
-				"type": "string"
-			}
-		],
-		"name": "add_task",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [
-			{
-				"internalType": "string",
-				"name": "task",
-				"type": "string"
-			}
-		],
-		"name": "remove_task",
-		"outputs": [],
-		"stateMutability": "nonpayable",
-		"type": "function"
-	},
-	{
-		"inputs": [],
-		"stateMutability": "nonpayable",
-		"type": "constructor"
-	},
-	{
-		"inputs": [],
-		"name": "get_tasks",
-		"outputs": [
-			{
-				"internalType": "string[]",
-				"name": "",
-				"type": "string[]"
-			}
-		],
-		"stateMutability": "view",
-		"type": "function"
-	}
-];
-var address = "0xBB8d941f4dA87FFD97e05c01c3F30983f0793a6D";
+var abi = "YOUR ABI";
+var address = "YOUR ADDRESS";
 
 var tasks =[];
 
