@@ -1,0 +1,12 @@
+.navbar{
+    position: absolute;
+    width: 100%;
+}
+
+.main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid red;
+}
